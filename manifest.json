@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Nightfoxify",
-  "version": "0.4.1",
+  "name": "Nightfoxify for Chrome",
+  "version": "0.1",
   "description": "Set websites to night mode. Darken bright backgrounds while keeping text visible.",
   "homepage_url": "https://github.com/Juz3/nightfoxify",
 
@@ -11,13 +11,6 @@
       "js": ["nightfoxify/nightfoxify.js"]
     }
   ],
-
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "nightfoxify_mozaddon@example.org",
-      "strict_min_version": "57.0"
-    }
-  },
 
   "background": {
     "scripts": ["background/setmode.js"]

@@ -1,5 +1,5 @@
 /*
- * Nightfoxify Firefox extension
+ * Nightfoxify Google Chrome extension
  *
  * Main script
  *
@@ -11,7 +11,7 @@ let bgStyle = document.createElement("style");
 
 document.body.appendChild(bgStyle);
 
-browser.storage.onChanged.addListener((changes, area) => {
+chrome.storage.onChanged.addListener((changes, area) => {
   if (area === "local" && "bgMode" in changes) {
     setBgMode(changes.bgMode.newValue);
   } else {
@@ -48,6 +48,6 @@ function setBgMode(toggle) {
 
 // if bgMode is saved in storage, set it automatically.
 // without this, toggle is needed on every new page load
-browser.storage.local.get("bgMode").then((result) => {
+chrome.storage.local.get(["bgMode"], function (result) {
   setBgMode(result.bgMode);
 });

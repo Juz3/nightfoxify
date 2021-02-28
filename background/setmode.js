@@ -1,5 +1,5 @@
 /*
- * Nightfoxify Firefox extension
+ * Nightfoxify Google Chrome extension
  *
  * action from browserAction
  *
@@ -8,17 +8,17 @@
  * Last modified: 28.02.2021
  */
 
-browser.browserAction.onClicked.addListener(() => {
+browserAction.onClicked.addListener(() => {
   setBGMode();
 });
 
 async function setBGMode() {
-  await browser.storage.local.get("bgMode").then((result) => {
-    browser.storage.local.set({ bgMode: !result.bgMode });
+  await chrome.storage.local.get("bgMode").then((result) => {
+    chrome.storage.local.set({ bgMode: !result.bgMode });
     if (result.bgMode) {
-      browser.browserAction.setIcon({ path: "icons/moon_off48.png" });
+      browserAction.setIcon({ path: "icons/moon_off48.png" });
     } else {
-      browser.browserAction.setIcon({ path: "icons/moon_on48.png" });
+      browserAction.setIcon({ path: "icons/moon_on48.png" });
     }
   });
 }

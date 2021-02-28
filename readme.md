@@ -1,8 +1,11 @@
 ## Nightfoxify
 
-Firefox add-on for night mode. Adds a button on the browser toolbar which
+Google Chrome add-on for night mode. Adds a button on the browser toolbar which
 toggles night mode on/off. Meaning that backgrounds turn dark gray and most of
 the text switches to white font color.
+
+Chrome Web Store link:
+(coming soon)
 
 Mozilla Addons link:
 https://addons.mozilla.org/en-US/firefox/addon/nightfoxify/

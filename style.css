@@ -1,0 +1,35 @@
+html,
+body {
+  background-color: rgba(22, 23, 26, 0.9) !important;
+  color: #fff !important;
+}
+div,
+tbody,
+th,
+tr,
+td,
+a,
+h1,
+h2,
+h3,
+article,
+header,
+section,
+input,
+table,
+button,
+nav {
+  background-color: rgba(31, 32, 34, 0.9) !important;
+  color: #fff !important;
+}
+span,
+li,
+p {
+  color: #fff !important;
+}
+a {
+  color: #3e74e7 !important;
+}
+cite {
+  color: #777777 !important;
+}

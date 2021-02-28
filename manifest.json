@@ -3,6 +3,7 @@
   "name": "Nightfoxify",
   "version": "0.4.1",
   "description": "Set websites to night mode. Darken bright backgrounds while keeping text visible.",
+  "homepage_url": "https://github.com/Juz3/nightfoxify",
 
   "content_scripts": [
     {

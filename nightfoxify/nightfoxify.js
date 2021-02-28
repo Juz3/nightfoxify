@@ -23,21 +23,22 @@ function setBgMode(toggle) {
   if (toggle) {
     // See "../style.css"
     bgStyle.innerText = `
-    html, body { 
+    html, body {
       background-color: rgba(22, 23, 26, 0.9) !important;
       color: #FFF !important;
     }
-    div, tbody, th, tr, td, a, h1, h2, h3, article, header, section, input, table, button, nav { 
+    article, button, div, h1, h2, h3, header, input, li, nav, pre, section, tbody, th, tr, td, table, ul {
       background-color: rgba(31, 32, 34, 0.9) !important;
       color: #FFF !important;
     }
-    span, li, p { 
+    span, p {
       color: #FFF !important;
     }
-    a { 
+    a {
+      background-color: rgba(31, 32, 34, 0.9) !important;
       color: #3e74e7 !important;
     }
-    cite { 
+    cite {
       color: #777777 !important;
     }`;
   } else {

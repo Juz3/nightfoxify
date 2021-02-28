@@ -5,7 +5,7 @@ toggles night mode on/off. Meaning that backgrounds turn dark gray and most of
 the text switches to white font color.
 
 Mozilla Addons link:
-https://addons.mozilla.org/en-US/developers/addon/nightfoxify
+https://addons.mozilla.org/en-US/firefox/addon/nightfoxify/
 
 Github repo:
 https://github.com/Juz3/nightfoxify

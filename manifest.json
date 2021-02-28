@@ -14,7 +14,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "nightfoxify_ff_addon@example.org",
+      "id": "nightfoxify_mozaddon@example.org",
       "strict_min_version": "57.0"
     }
   },

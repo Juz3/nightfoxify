@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Nightfoxify for Chrome",
+  "name": "Nightchromed",
   "version": "0.1",
   "description": "Set websites to night mode. Darken bright backgrounds while keeping text visible.",
   "homepage_url": "https://github.com/Juz3/nightfoxify/tree/chrome_port",
@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["nightfoxify/nightfoxify.js"]
+      "js": ["nightchromed/nightchromed.js"]
     }
   ],
 
@@ -21,7 +21,7 @@
     "default_icon": {
       "48": "icons/moon_off48.png"
     },
-    "default_title": "Nightfoxify"
+    "default_title": "Nightchromed"
   },
 
   "permissions": ["storage"]

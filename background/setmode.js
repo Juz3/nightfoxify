@@ -8,17 +8,17 @@
  * Last modified: 28.02.2021
  */
 
-browserAction.onClicked.addListener(() => {
+chrome.browserAction.onClicked.addListener(() => {
   setBGMode();
 });
 
 async function setBGMode() {
-  await chrome.storage.local.get("bgMode").then((result) => {
+  await chrome.storage.local.get("bgMode", function (result) {
     chrome.storage.local.set({ bgMode: !result.bgMode });
     if (result.bgMode) {
-      browserAction.setIcon({ path: "icons/moon_off48.png" });
+      chrome.browserAction.setIcon({ path: "icons/moon_off48.png" });
     } else {
-      browserAction.setIcon({ path: "icons/moon_on48.png" });
+      chrome.browserAction.setIcon({ path: "icons/moon_on48.png" });
     }
   });
 }

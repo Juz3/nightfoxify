@@ -5,7 +5,7 @@
  *
  * @author Juz3
  *
- * Last modified: 28.02.2021
+ * Last modified: 01.03.2021
  */
 let bgStyle = document.createElement("style");
 
@@ -27,7 +27,7 @@ function setBgMode(toggle) {
       background-color: rgba(22, 23, 26, 0.9) !important;
       color: #FFF !important;
     }
-    article, button, div, h1, h2, h3, header, input, li, nav, pre, section, tbody, th, tr, td, table, ul {
+    article, button, div, h1, h2, h3, h4, h5, header, figure, input, li, nav, pre, section, tbody, th, tr, td, table, ul {
       background-color: rgba(31, 32, 34, 0.9) !important;
       color: #FFF !important;
     }

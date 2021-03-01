@@ -5,15 +5,15 @@
  *
  * @author Juz3
  *
- * Last modified: 28.02.2021
+ * Last modified: 01.03.2021
  */
 
 browser.browserAction.onClicked.addListener(() => {
   setBGMode();
 });
 
-async function setBGMode() {
-  await browser.storage.local.get("bgMode").then((result) => {
+function setBGMode() {
+  browser.storage.local.get("bgMode").then((result) => {
     browser.storage.local.set({ bgMode: !result.bgMode });
     if (result.bgMode) {
       browser.browserAction.setIcon({ path: "icons/moon_off48.png" });

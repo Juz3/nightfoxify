@@ -10,4 +10,5 @@ https://addons.mozilla.org/en-US/firefox/addon/nightfoxify/
 Github repo:
 https://github.com/Juz3/nightfoxify
 
-See web-ext documentation for running and buiding.
+See web-ext documentation for running and buiding:
+https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/

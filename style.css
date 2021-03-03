@@ -6,13 +6,20 @@ body {
 article,
 button,
 div,
+em,
+figure,
+form,
 h1,
 h2,
 h3,
+h4,
+h5,
 header,
 input,
 li,
+main,
 nav,
+p,
 pre,
 section,
 tbody,
@@ -20,12 +27,17 @@ th,
 tr,
 td,
 table,
-ul {
+ul,
+ytd-browse {
   background-color: rgba(31, 32, 34, 0.9) !important;
   color: #fff !important;
 }
+code,
+blockquote {
+  background-color: rgba(45, 45, 46, 0.5) !important;
+}
 span,
-p {
+yt-formatted-string {
   color: #fff !important;
 }
 a {

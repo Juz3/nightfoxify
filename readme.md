@@ -7,6 +7,9 @@ the text switches to white font color.
 Mozilla Addons link:
 https://addons.mozilla.org/en-US/firefox/addon/nightfoxify/
 
+Chrome version: (see branch chrome_port)
+https://chrome.google.com/webstore/detail/nightchromed/elknhfpopmgoindibjnlpihgjeibocgg
+
 Github repo:
 https://github.com/Juz3/nightfoxify
 
